@@ -8,7 +8,7 @@ scaler = pickle.load(open('scaler.py','rb'))
 linear = pickle.load(open('predecir.pickle','rb'))
 
 st.title("Viviendas .")
-st.write("Bienvenido a nuestra aplicación. Aquí puede seleccionar lo que quiere hacer, ejecutando la aplicación de predicción de casas o buscar casas en nuestra base de datos.")
+st.write("Bienvenido a nuestra aplicación. Aquí puede seleccionar lo que quiere hacer.")
 
 st.title("Aplicación de predicción de viviendas.")
 st.write("Obtendrá el precio de una casa en función de las diferentes características de la casa")
