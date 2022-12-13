@@ -5,6 +5,7 @@ import streamlit as st
 
 df = pd.read_csv('csv_limio.csv')
 scaler = pickle.load(open('scaler.py','rb'))
+linear = pickle.load(open('predecir.pickle','rb'))
 
 st.title("Viviendas .")
 st.write("Bienvenido a nuestra aplicación. Aquí puede seleccionar lo que quiere hacer, ejecutando la aplicación de predicción de casas o buscar casas en nuestra base de datos.")
